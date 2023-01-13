@@ -1,5 +1,7 @@
 name: Slither Analysis
 on: [push]
+permissions:
+  security-events: write
 jobs:
   analyze:
     runs-on: ubuntu-latest
